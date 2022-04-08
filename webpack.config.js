@@ -101,7 +101,7 @@ module.exports = (env) => {
                 replacement: process.env.GOOGLE_MAPS_API_KEY,
               },
             ]),
-            new Dotenv(),
+            new Dotenv({systemvars: true,}),
           ]
     ),
       // resolve any files that end in the following extensions
