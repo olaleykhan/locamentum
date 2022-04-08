@@ -1,0 +1,70 @@
+body{
+    // background-color: rgb(176, 209, 129);
+    text-align: center;
+    // display: flex;
+    p{
+        font-size: 12px;
+        color: rgb(58, 58, 59);
+        font-style: oblique;
+    }
+
+  
+}
+button{
+    padding: 6px 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(58, 58, 59);
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: rgb(58, 58, 59);
+        color: rgb(255, 255, 255);
+
+    }
+    &.btn{
+        color:rgb(176, 209, 129);
+        background-color: rgb(255, 255, 255);
+    }
+
+}
+
+#map{
+    width: 1200px;
+    // min-width: 400px;
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solic #ccc;
+    height: 25rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: 40px auto;
+    max-width: 90%;
+
+    input{
+        width: 20rem;
+        margin-bottom: 20px;
+        height: 40px;
+        border: 1px solid #ccc;
+        outline: none;
+        color: rgb(176, 209, 129);
+        border-radius: 10px;
+        padding: 5px 10px;
+    }
+    button{
+        width: 10rem;
+        margin:  auto;
+    }
+}

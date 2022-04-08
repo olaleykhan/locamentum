@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <h1> Welcome</h1>
+    <div>       
+
+        <form id="address-form">
+            <input type="text" name="address" id="address" placeholder="Enter an address">
+            <button type="submit" id="submit">Submit address </button>
+        </form>
+        <div id="map">
+            <p> Please enter an address in the input above</p>
+        </div>
+    </div>
+    
+</body>
+ <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+ <script
+ src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_MAPS_API_KEY"
+ async
+></script>
+</html>
